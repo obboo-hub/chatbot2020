@@ -1,0 +1,171 @@
+.boxQ{
+  top: 8%;
+height: 100%;
+width: 100%;
+background-color :  #f5f5f5;
+
+
+}
+
+.container {
+  position: absolute;
+  width: 1152px;
+height: 535px;
+  left: 200px;
+  right: 663px;
+  top: 35px;
+  
+  background: #ffffff;
+  border-radius: 20px;
+  
+  
+  }
+  h2{
+    
+    font-family: Roboto Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 32px;
+  }
+  
+  form{
+    margin-left:45px;
+    
+  }
+  .signupInput1{
+    position: absolute;
+width: 183px;
+height: 40px;
+left: 360px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+    padding:10px;
+    margin:5px; 
+    border-radius: 10px; 
+    font-size:1.2rem;
+   
+   
+  }
+  .signupInput2{
+    position: absolute;
+width: 183px;
+height: 40px;
+top: 230px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+    padding:10px;
+    margin:5px; 
+    border-radius: 10px; 
+    font-size:1.2rem;
+    
+   
+  }
+  .signupInput3{
+    position: absolute;
+    width: 183px;
+    height: 40px;
+    top: 230px;
+    left: 590px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+        padding:10px;
+        margin:5px; 
+        border-radius: 10px; 
+        font-size:1.2rem;
+        
+   
+  }
+  .signupInput4{
+    position: absolute;
+
+height: 40px;
+top: 300px;
+
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+    padding:10px;
+    margin:5px; 
+    border-radius: 10px; 
+    font-size:1.2rem;
+    
+   
+  }
+  .signupInput5{
+    position: absolute;
+
+height: 40px;
+top: 300px;
+left: 590px;
+background: #FFFFFF;
+border: 1px solid #000000;
+box-sizing: border-box;
+    padding:10px;
+    margin:5px; 
+    border-radius: 10px; 
+    font-size:1.2rem;
+    
+   
+  }
+
+  
+  #email{
+    width:40%;
+  }
+  #username{
+    width:40%;
+  }
+  #password{
+    width:40%;
+  }
+  
+  .ButtonSubmit{
+    position:absolute;
+    padding:5px 10px; 
+    top: 390px;
+    left: 280px;
+    margin-left:20%;
+    font-family: "Permanent Marker";
+      font-size: 24px;
+      font-weight: bold;
+      line-height: 25px;
+    opacity:0.8;
+    background: #0FA187;
+    cursor:pointer; 
+  }
+  .ButtonSubmit:hover{
+    position:absolute;
+    padding:5px 10px ; 
+    top: 390px;
+    left: 280px;
+    margin-left:20%;
+    font-family: "Permanent Marker";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 25px;
+   
+    
+    opacity:0.8;
+    cursor:pointer; 
+    
+    color:white;
+  }
+
+  body {
+    
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: -8px;
+    top: 10%;
+    
+    overflow-x: hidden;
+
+    }

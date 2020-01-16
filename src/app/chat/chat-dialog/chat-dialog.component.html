@@ -1,6 +1,10 @@
-<h1>Angular Bot</h1>
+
+<h1 class="titre"> تشاتبوت</h1>
 
 
+<div id="chatbox" >
+  
+    <div #scrollMe class="msg-scroll">
 
 <ng-container *ngFor="let message of messages | async">
 
@@ -10,12 +14,15 @@
   </div>
 
 </ng-container>
+</div>
+</div>
+<div class="dd">
+<label for="nameField">اكتب رسالتك</label>
 
 
-<label for="nameField">Your Message</label>
+<input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text"  placeholder="رسالتك" id="input" autofocus><br>
+
+<button (click)="sendMessage()" class="button" style="background-color: #45d6b1;">ارسل</button>
 
 
-<input [(ngModel)]="formValue" (keyup.enter)="sendMessage()" type="text"><br>
-
-<button (click)="sendMessage()">Send</button>
-
+</div>

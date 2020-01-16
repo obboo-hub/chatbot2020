@@ -4,20 +4,63 @@
     padding: 15px 20px;
     position: relative;
     font-weight: bold;
+    overflow: hidden;
 }
 .message.to {
-    background-color: #2095FE;
-    color: #fff;
+    background-color:#00ffbf;
+    color: rgb(0, 0, 0);
     margin-left: 100px;
     text-align: right;
+    overflow: hidden;
 }
 .message.from {
-    background-color: #E5E4E9;
-    color: #363636;
+    background-color:#26e5c7;
+    color: #000000;
     margin-right: 100px;
+    overflow: hidden;
 
 }
 .message.to + .message.to,
 .message.from + .message.from {
-margin-top: -10px;
+margin-bottom: -10px;
+overflow: hidden;
+
 }
+
+#chatbox{
+    right: 520px;
+    width: 1508px;
+    height: 410px;
+    border: 25px solid #45d6b1;
+    position: relative;
+    padding: 20px;
+    
+    
+
+    
+}
+
+
+#chatbox div.dd {
+   
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background-color:#45d6b1;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.titre{
+    
+    font-family: Arial;
+    font-variant: small-caps;
+    font-weight: bold;
+    font-size:40px;
+    color: #999999;
+    position:absolute; top:7% !important; top:20%; left:40%;right:30%;
+    }
+    .msg-scroll {
+        overflow-y: auto;
+        max-height: 310px;
+      }

@@ -1,10 +1,35 @@
-<div class="row">
-        <div class="column"></div>
-        <div class="column column-50">
-            <chat-dialog></chat-dialog>
-        </div>
-        <div class="column"></div>
-      </div>
-    
+<!-- Toolbar -->
+
+<div class="nav-container">
+  
+  <nav>
+    <div class="nav-mobile">
+      <a id="nav-toggle" href="#!"><span></span></a>
+    </div>
+    <ul class="nav-list">
+      <!-- Setting the links to #! will ensure that no action takes place on click. -->
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/page3">About</a></li>
+      <li><a href="#!">FAQ</a></li>
+      <li><a href="#!">Contact</a></li>
+    </ul>
+  </nav>
+  
+</div>
 
 
+<!--
+<div>
+
+    <div class="containertoolbar">
+      <ul>
+        <li class="one"><a routerLink="/">الصفحة الرئيسية </a></li>
+     <li class="two"><a routerLink="/page2">تشاتبوت</a></li>
+     <li class="three"><a routerLink="/page3">اتصل بنا</a></li>
+     <li class="four"><a routerLink="/login">login</a></li>
+        <hr />
+      </ul>
+    </div>
+  </div>
+-->
+<router-outlet></router-outlet>

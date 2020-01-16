@@ -8,8 +8,9 @@ import { BehaviorSubject } from 'rxjs/BehaviorSubject';
 
 export class Message {
   constructor(public content: string, public sentBy: string) {}
+  
 }
-
+console.log('test1')
 @Injectable()
 export class ChatService {
 
